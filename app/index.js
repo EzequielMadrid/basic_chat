@@ -6,10 +6,8 @@ function sendMessage() {
 
   if (newMsg !== "") {
     const avatarUrl = "assets/images/avatar.jpeg";
-    const avatarNick = "afterCode2099";
     cloud.innerHTML += `
-    <section class="relative text-right mb-14">
-          <h2 class="font-bold text-blue-900 dark:text-blue-200">${avatarNick}</h2>
+    <section class="relative mb-14">
           <article class="flex items-center absolute right-0">
             <img
               src="${avatarUrl}"
